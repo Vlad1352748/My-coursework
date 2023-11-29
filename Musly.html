@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="StyleS.css" rel="stylesheet">
+    <link href="https://drive.google.com/uc?export=view&id=1FLJPRzFzDijyM2yuqfOxdg0HODK29mw_" rel="icon">
+    <title>Мысли ночью</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="aboutme.html" title="Обо мне">
+            <img src="https://drive.google.com/uc?export=view&id=17xl-wgDCP76_rmvp9FqLMSK4vBEOHwKd" alt="logo.png">
+        </a>
+        <nav>
+            <a class="item" href="main.html">Главная</a>
+            <div class="item">
+                Книги
+                <div class="dropdown">
+                    <div>
+                        <a href="Ceni.html">Цени то, что имеешь</a>
+                        <a href="Pierc.html">У пирса</a>
+                        <a href="oliver.html">Оливер и Оливия</a>
+                    </div>
+                </div>
+            </div>
+            <a class="item" href="Musly.html">Мысли</a>
+            <a class="item" href="Citati.html">Цитаты</a>
+            <div class="colorfill"></div>
+        </nav>
+    </div>
+    <div class="concept-two">
+        <div class="hover">
+            <h1>М</h1>
+        </div>
+        <div class="hover">
+            <h1>Ы</h1>
+        </div>
+        <div class="hover">
+            <h1>С</h1>
+        </div>
+        <div class="hover">
+            <h1>Л</h1>
+        </div>
+        <div class="hover">
+            <h1>И</h1>
+        </div>
+    </div>
+        
+    
+    <h2 class="musly">
+        Это тот раздел моих записей, где я делюсь своими переживаниями и рассуждениями,
+        которые, зачастую, приходят ко мне перед сном. Здесь представлена малая часть из того что у меня накопилось,
+        но это именно та часть, которая заставит многих задуматься, а я не буду переживать, что это слишком личное.
+    </h2>
+
+    <div class="pdflist">
+        <div class="listitem">
+            <p>Мысли ночью 16.07.22</p>
+            <button type="button" onclick="turnonoff(1,1)">Показать текст</button>
+            <button type="button" onclick="turnonoff(1,0)">Скрыть текст</button>
+            <div id="file1" class="pdf">
+                <iframe src="https://drive.google.com/uc?export=view&id=19jA-S2EpGpUHHKRgZKfkOYWTQPjtQdY2"></iframe>
+            </div>
+        </div>
+
+        <div class="listitem">
+            <p>Мысли ночью 20.07.22</p>
+            <button type="button" onclick="turnonoff(2,1)">Показать текст</button>
+            <button type="button" onclick="turnonoff(2,0)">Скрыть текст</button>
+            <div id="file2" class="pdf">
+                <iframe src="https://drive.google.com/uc?export=view&id=12mbMXrWGvDkHmnQY_HrpEOc0vwifSJbH"></iframe>
+            </div>
+        </div>
+
+        <div class="listitem">
+            <p>Мысли ночью 22.08.22</p>
+            <button type="button" onclick="turnonoff(3,1)">Показать текст</button>
+            <button type="button" onclick="turnonoff(3,0)">Скрыть текст</button>
+            <div id="file3" class="pdf">
+                <iframe src="https://drive.google.com/uc?export=view&id=11O0FxgsxoPT6e0NKZfLiv7d-0GaAK1Gz"></iframe>
+            </div>
+        </div>
+
+        <div class="listitem">
+            <p>Мысли ночью 06.06.23</p>
+            <button type="button" onclick="turnonoff(4,1)">Показать текст</button>
+            <button type="button" onclick="turnonoff(4,0)">Скрыть текст</button>
+            <div id="file4" class="pdf">
+                <iframe src="https://drive.google.com/uc?export=view&id=1BgAz_oqcsxtITDEq10AfMZBpgrCwaDmz"></iframe>
+            </div>
+        </div>
+
+        <div class="listitem">
+            <p>Мысли ночью 22.08.23</p>
+            <button type="button" onclick="turnonoff(5,1)">Показать текст</button>
+            <button type="button" onclick="turnonoff(5,0)">Скрыть текст</button>
+            <div id="file5" class="pdf">
+                <iframe src="https://drive.google.com/uc?export=view&id=1U9y893tPFFOgFzPikc3w77LPCgofu8e0"></iframe>
+            </div>
+        </div>
+
+        <div class="listitem">
+            <p>Мысли ночью 10.11.23</p>
+            <button type="button" onclick="turnonoff(6,1)">Показать текст</button>
+            <button type="button" onclick="turnonoff(6,0)">Скрыть текст</button>
+            <div id="file6" class="pdf">
+                <iframe src="https://drive.google.com/uc?export=view&id=1CN1EAjdA_U7AIdp5-X16bFiKPsUoqTNb"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function turnonoff(N, sw) {
+            var file = document.getElementById('file' + N);
+            if (sw == 0) {
+                file.style.display = 'none';
+            }
+            else {
+                file.style.display = 'flex';
+            }
+        }
+    </script>
+</body>
+
+<foot>
+    <div class="footer">
+        <div class="background">
+            <span class="social-media-buttons">
+                <span class="social-media-button">
+                    <a href="https://www.instagram.com/vlad135274/" target="_blank">
+                        <img src="https://drive.google.com/uc?export=view&id=1C-o89qHgGiv4cPrTaH_9hxOFWu0KgH35" alt="instagram.png">
+                    </a>
+                </span>
+                <span class="social-media-button">
+                    <a href="https://patreon.com/HandWrittingStories" target="_blank">
+                        <img src="https://drive.google.com/uc?export=view&id=1a_XFzcSLnpxCTJkbDAt5vI9vYu-lyj5-" alt="patreon.png">
+                    </a>
+                </span>
+                <span class="social-media-button">
+                    <a href="https://t.me/Handwritingstories" target="_blank">
+                        <img src="https://drive.google.com/uc?export=view&id=1bqvObsD-ga0J27kF6Piq5QNOxcs2hcxi" alt="telegram.png">
+                    </a>
+                </span>
+            </span>
+        </div>
+    </div>
+</foot>
+
+</html>
